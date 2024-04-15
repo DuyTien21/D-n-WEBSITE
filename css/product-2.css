@@ -1,0 +1,40 @@
+html {
+  background-color: #e9e9e9;
+}
+
+body {
+  width: 1400px;
+  margin: auto;
+  padding: 12px;
+}
+
+.product-preview {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 400px;
+  gap: 24px;
+}
+.product-preview .com1 {
+  padding: 0;
+  width: unset !important;
+}
+.product-preview .com2 {
+  padding: 0;
+  height: 100%;
+}
+.product-preview .com2 .frame-wrapper3 {
+  padding: 0;
+}
+.product-preview .com2 > .frame-group {
+  height: 100%;
+}
+
+.products-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  overflow: hidden;
+  height: unset;
+}
+
+/*# sourceMappingURL=product-2.css.map */
