@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "dev": "concurrently \"live-server --port=8000\" \"sass ./scss:./css --watch\"",
+    "build": "node dev/build.js",
+    "build-dev": "nodemon dev/build.js --watch dev"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "fs-extra": "^11.2.0"
   }
 }
