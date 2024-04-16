@@ -1,0 +1,11 @@
+.sign-in {
+  width: 100%;
+  min-height: 100vh;
+
+  button.btn-sign-in {
+    text-transform: uppercase;
+    outline: none;
+    padding: 12px 1rem;
+    border: none;
+  }
+}
